@@ -148,3 +148,10 @@ h1 {
 .checkout button:hover {
   background-color: #218838;
 }
+
+p {
+  font-size: clamp(14px, 2vw, 24px); /* ฟอนต์จะมีขนาดไม่ต่ำกว่า 14px และไม่เกิน 24px */
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
